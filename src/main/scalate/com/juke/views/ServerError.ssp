@@ -1,0 +1,10 @@
+#import(com.juke.views)
+
+<html>
+	<head>
+		<title> JUKE - Not found! </title>
+	</head>
+	<body>
+		500 - Server Error
+	</body>
+</html>

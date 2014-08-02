@@ -1,0 +1,36 @@
+[0m[[0minfo[0m] [0mRunning com.juke.Boot [0m
+[0m[[0minfo[0m] [0m[INFO] Slf4jLogger started[0m
+[0m[[0minfo[0m] [0m[INFO] Load routes.cache or recollect routes...[0m
+[0m[[0minfo[0m] [0m[INFO] Glokka actor registry "xitrum.sockjs.SockJsAction$" starts in local mode[0m
+[0m[[0minfo[0m] [0m[INFO] Glokka actor registry "metrics" starts in local mode[0m
+[0m[[0minfo[0m] [0m[INFO] Normal routes:[0m
+[0m[[0minfo[0m] [0mGET  /                        com.juke.views.SiteIndex[0m
+[0m[[0minfo[0m] [0mGET  /user/:user_id           com.juke.views.rest.UserView[0m
+[0m[[0minfo[0m] [0mGET  /user/search/:user_name  com.juke.views.rest.UserSearch[0m
+[0m[[0minfo[0m] [0m[INFO] Error routes:[0m
+[0m[[0minfo[0m] [0m404  com.juke.views.NotFoundError[0m
+[0m[[0minfo[0m] [0m500  com.juke.views.ServerError[0m
+[0m[[0minfo[0m] [0m[INFO] Xitrum SockJS routes:[0m
+[0m[[0minfo[0m] [0mxitrum/metrics/channel  xitrum.metrics.XitrumMetricsChannel  websocket: true, cookie_needed: false[0m
+[0m[[0minfo[0m] [0m[INFO] Xitrum routes:[0m
+[0m[[0minfo[0m] [0mGET        /webjars/swagger-ui/2.0.17/index                            xitrum.routing.SwaggerUiVersioned[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/xitrum.js                                           xitrum.js[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel                                     xitrum.sockjs.Greeting[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/:serverId/:sessionId/eventsource    xitrum.sockjs.EventSourceReceive[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/:serverId/:sessionId/htmlfile       xitrum.sockjs.HtmlFileReceive[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/:serverId/:sessionId/jsonp          xitrum.sockjs.JsonPPollingReceive[0m
+[0m[[0minfo[0m] [0mPOST       /xitrum/metrics/channel/:serverId/:sessionId/jsonp_send     xitrum.sockjs.JsonPPollingSend[0m
+[0m[[0minfo[0m] [0mWEBSOCKET  /xitrum/metrics/channel/:serverId/:sessionId/websocket      xitrum.sockjs.WebSocket[0m
+[0m[[0minfo[0m] [0mPOST       /xitrum/metrics/channel/:serverId/:sessionId/xhr            xitrum.sockjs.XhrPollingReceive[0m
+[0m[[0minfo[0m] [0mPOST       /xitrum/metrics/channel/:serverId/:sessionId/xhr_send       xitrum.sockjs.XhrSend[0m
+[0m[[0minfo[0m] [0mPOST       /xitrum/metrics/channel/:serverId/:sessionId/xhr_streaming  xitrum.sockjs.XhrStreamingReceive[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/info                                xitrum.sockjs.InfoGET[0m
+[0m[[0minfo[0m] [0mWEBSOCKET  /xitrum/metrics/channel/websocket                           xitrum.sockjs.RawWebSocket[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/viewer                                      xitrum.metrics.XitrumMetricsViewer[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/:serverId/:sessionId/websocket      xitrum.sockjs.WebSocketGET[0m
+[0m[[0minfo[0m] [0mGET        /xitrum/metrics/channel/:iframe                             xitrum.sockjs.Iframe[0m
+[0m[[0minfo[0m] [0mPOST       /xitrum/metrics/channel/:serverId/:sessionId/websocket      xitrum.sockjs.WebSocketPOST[0m
+[0m[[0minfo[0m] [0m[INFO] HTTP server started on port 8000[0m
+[0m[[0minfo[0m] [0m[INFO] HTTPS server started on port 4430[0m
+[0m[[0minfo[0m] [0m[INFO] Xitrum 3.16 started in development mode; routes and classes in directories List(/Users/msd/Code/Scala/juke-server/xitrum-new-master/config, /Users/msd/Code/Scala/juke-server/xitrum-new-master/target/scala-2.11/classes) will be reloaded[0m
+[0m[[0minfo[0m] [0m[WARN] *** For security, change secureKey in config/xitrum.conf to your own! ***[0m

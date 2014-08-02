@@ -1,0 +1,44 @@
+#slide-2 .bcg {
+
+}
+
+#slide-2 .hsContent {
+	margin-left: -450px;
+	top: auto;
+}
+#slide-2 h2 {
+	position: fixed;
+	top: 70%;
+}
+
+#slide-1 .bcg {
+		
+}
+
+#slide-1 .hs {
+	
+}
+
+#slide-1 .h2 {
+	background: none;
+}
+
+#slide-3 .hsContent {
+    margin-left: -450px;
+}
+#slide-3 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
